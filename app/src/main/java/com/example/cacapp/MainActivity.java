@@ -1,5 +1,6 @@
 package com.example.cacapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -36,4 +37,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+   public void onClickGoToTaraCalicoScn(View view)
+   {
+       startActivity(new Intent(MainActivity.this, AboutTaraCalico.class));
+   }
 }

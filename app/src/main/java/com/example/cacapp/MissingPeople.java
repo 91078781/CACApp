@@ -1,5 +1,6 @@
 package com.example.cacapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,4 +16,5 @@ public class MissingPeople extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.missing_people_layout, container, false);
     }
+
 }
