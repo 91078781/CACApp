@@ -25,24 +25,125 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="90dp"
         android:adjustViewBounds="true"
-        android:maxWidth="100sp"
-        android:maxHeight="100sp"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
         android:onClick="onClickGoToTaraCalicoScn"
         android:padding="0dp"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/tara_calico" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/alexis_tiara_murphy_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginLeft="150dp"
         android:layout_marginTop="90dp"
         android:adjustViewBounds="true"
-        android:maxWidth="100sp"
-        android:maxHeight="100sp"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:onClick="onClickGoToAlexisTiaraMurphyScn"
         android:padding="0dp"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/alexis_tiara_murphy" />
+
+    <ImageButton
+        android:id="@+id/amina_belel_kandil_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="230dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/amina_and_belel_kandil_child" />
+
+    <ImageButton
+        android:id="@+id/amanda_kay_jones_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="90dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/amanda_kay_jones" />
+
+    <ImageButton
+        android:id="@+id/breasia_terrell_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="230dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/breasia_terrell" />
+
+    <ImageButton
+        android:id="@+id/cayce_mcdaniel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="230dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="130dp"
+        android:maxHeight="100dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cayce_mcdaniel" />
+
+    <ImageButton
+        android:id="@+id/dulce_maria_alavez_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="370dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/dulce_maria_alavez" />
+
+    <ImageButton
+        android:id="@+id/crystal_rogers_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="370dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="130dp"
+        android:maxHeight="100dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/crystal_rogers" />
+
+    <ImageButton
+        android:id="@+id/margaret_ellen_fox_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="370dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/margaret_ellen_fox" />
+
+
 </RelativeLayout>
