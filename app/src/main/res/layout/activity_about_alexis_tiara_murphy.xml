@@ -17,4 +17,13 @@
         android:textSize="30sp"
         android:gravity="center"
         />
+
+    <Button
+        android:id="@+id/returnMissingPersonScnBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickReturnToMissingPeopleScn"
+        android:layout_marginTop="1300px"
+        android:text="Return" />
+
 </LinearLayout>
