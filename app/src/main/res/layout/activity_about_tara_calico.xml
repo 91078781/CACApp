@@ -18,4 +18,12 @@
         android:textSize="30sp"
         tools:layout_editor_absoluteX="161dp"
         tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/returnMissingPersonScnBtn_TaraC"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150px"
+        android:onClick="onClickReturnMissingPersonScnBtn_TaraC"
+        android:text="return" />
 </LinearLayout>
