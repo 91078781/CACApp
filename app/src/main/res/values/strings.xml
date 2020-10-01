@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Missing and Unidentified People</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Missing People</string>
+    <string name="tab_text_3">Unidentified People</string>
+</resources>
