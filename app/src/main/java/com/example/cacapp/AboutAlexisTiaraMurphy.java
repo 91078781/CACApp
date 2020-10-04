@@ -12,9 +12,9 @@ public class AboutAlexisTiaraMurphy extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_alexis_tiara_murphy);
     }
-
-    public void onClickReturnToMissingPeopleScn(View view)
+    public void onClickReturnToMissingPeopleScn_Tiara(View view)
     {
         finish();
     }
+
 }
