@@ -7,8 +7,20 @@
     android:orientation="vertical"
     tools:context=".AboutAmandaKayJones">
 
+    <TextView
+        android:id="@+id/amanda_kay_jones_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Amanda Kay Jones"
+        android:textColor="#000"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="7dp" />
+
     <Button
-        android:id="@+id/returnMissingPersonScnBtn_kandil"
+        android:id="@+id/returnMissingPersonScnBtn_amandaKayJones"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1300px"

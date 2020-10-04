@@ -5,25 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AboutAminaAndBelelKandil">
+    tools:context=".AboutBreasiaTerrell">
 
     <TextView
-        android:id="@+id/amina_belel_kandil_label"
+        android:id="@+id/breasia_terrell_label"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Amina and Belel Kandil"
+        android:text="Breasia Terrell"
         android:textColor="#000"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="161dp"
         tools:layout_editor_absoluteY="7dp" />
 
-    <Button
-        android:id="@+id/returnMissingPersonScnBtn_kandil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="1300px"
-        android:onClick="onClickReturnToMissingPeopleScn_Kandil"
-        android:text="Return" />
+
 </LinearLayout>
