@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AboutBreasiaTerrell"></activity>
+        <activity android:name=".AboutCayceMcDaniel"></activity>
+        <activity android:name=".AboutBreasiaTerrell" />
         <activity android:name=".AboutAmandaKayJones" />
         <activity android:name=".AboutAminaAndBelelKandil" />
         <activity android:name=".AboutAlexisTiaraMurphy" />

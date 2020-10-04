@@ -5,25 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AboutAlexisTiaraMurphy">
+    tools:context=".AboutCayceMcDaniel">
 
     <TextView
-        android:id="@+id/textView_alexis_tiara"
+        android:id="@+id/textView_cayce_mcdaniel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Alexis Tiara Murphy"
-        android:textColor="#000"
-        android:textSize="30sp"
         android:gravity="center"
-        />
+        android:text="Cayce McDaniel"
+        android:textColor="#000"
+        android:textSize="30sp" />
 
     <Button
-        android:id="@+id/returnMissingPersonScnBtn_tiara"
+        android:id="@+id/returnMissingPersonScnBtn_cayce_mcdaniel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1300px"
-        android:onClick="onClickReturnToMissingPeopleScn_Tiara"
         android:text="Return" />
 
 </LinearLayout>
