@@ -13,5 +13,10 @@ public class AboutAminaAndBelelKandil extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_amina_and_belel_kandil);
     }
+    public void onClickReturnToMissingPeopleScn_Kandil(View view)
+    {
+        finish();
+    }
+
 
 }
