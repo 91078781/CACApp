@@ -72,4 +72,9 @@ public class MainActivity extends AppCompatActivity {
     {
         startActivity(new Intent(MainActivity.this, AboutDulceMariaAlavez.class));
     }
+
+    public void onClickGoToAboutMargaretEllenFox(View view)
+    {
+        startActivity(new Intent(MainActivity.this, AboutMargaretEllenFox.class));
+    }
 }

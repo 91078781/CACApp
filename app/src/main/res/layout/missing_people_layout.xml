@@ -146,6 +146,7 @@
         android:adjustViewBounds="true"
         android:maxWidth="100dp"
         android:maxHeight="100dp"
+        android:onClick="onClickGoToAboutMargaretEllenFox"
         android:padding="0dp"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/margaret_ellen_fox" />
