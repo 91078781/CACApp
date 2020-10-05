@@ -132,6 +132,7 @@
         android:adjustViewBounds="true"
         android:maxWidth="130dp"
         android:maxHeight="100dp"
+        android:onClick="onClickGoToAboutCrystalRogers"
         android:padding="0dp"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/crystal_rogers" />
