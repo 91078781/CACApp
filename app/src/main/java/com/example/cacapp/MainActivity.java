@@ -67,4 +67,9 @@ public class MainActivity extends AppCompatActivity {
     {
         startActivity(new Intent(MainActivity.this, AboutCayceMcDaniel.class));
     }
+
+    public void onClickGoToAboutDulceMariaAlavezScn(View view)
+    {
+        startActivity(new Intent(MainActivity.this, AboutDulceMariaAlavez.class));
+    }
 }
