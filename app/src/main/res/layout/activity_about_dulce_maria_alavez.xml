@@ -17,10 +17,11 @@
         android:textSize="30sp" />
 
     <Button
-        android:id="@+id/returnMissingPersonScnBtn_cayce_mcdaniel"
+        android:id="@+id/returnMissingPersonScnBtn_dulceMariaAlavez"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1300px"
+        android:onClick="onClickReturnToMissingPeopleScn_dulceMariaAlavez"
         android:text="Return" />
 
 </LinearLayout>
