@@ -1,47 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".AboutTaraCalico">
+    android:layout_height="match_parent">
 
-    <TextView
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
         android:id="@+id/tara_calico_label"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Tara Calico"
+        android:text="@string/taraCalico"
         android:textColor="#000"
         android:textStyle="bold"
-        android:textSize="40dp"
+        android:textSize="40sp"
         tools:layout_editor_absoluteX="161dp"
         tools:layout_editor_absoluteY="7dp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="15dp"
-        android:adjustViewBounds="true"
-        android:maxWidth="300dp"
-        android:maxHeight="300dp"
-        app:srcCompat="@drawable/tara_calico" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="300dp"
+            android:maxHeight="300dp"
+            app:srcCompat="@drawable/tara_calico"
+            android:contentDescription="@string/taraCalicoTeenImgDescription" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#1433DF"
             android:textAllCaps="true"
-            android:text="Last Seen: "
+            android:text="@string/lastSeenTaraCalico"
             android:gravity="center"
             android:layout_marginTop="15dp"
-         />
+            />
         <TextView
             android:id="@+id/lastSeen_taraCalico"
             android:layout_width="match_parent"
@@ -50,145 +55,147 @@
             android:fontFamily="sans-serif-condensed-medium"
             android:text=""
             android:textColor="#000"
-            android:textSize="15dp"
-         />
+            android:textSize="15sp"
+            />
         <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="#1433DF" 
-        android:textAllCaps="true"    
-        android:text="Description"
-        android:gravity="center"
-         android:layout_marginTop="15dp"
-        />
-    
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_marginRight="10dp"
-        android:layout_centerInParent="true"
-        >
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1433DF"
+            android:textAllCaps="true"
+            android:text="@string/description"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            />
 
-        <TableRow>
-            <TextView
-                android:layout_marginLeft="15dp"
-                android:layout_height="wrap_content"
-                android:layout_width="180dp"
-                android:textSize="15dp"
-                android:text="  Date of Birth:"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:background="@drawable/border"
-                />
-            <TextView
-                android:layout_height="wrap_content"
-                android:layout_width="180dp"
-                android:textSize="15dp"
-                android:text="  Hair:"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:background="@drawable/border"
-                />
-        </TableRow>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:gravity="center">
 
-        <TableRow>
-            <TextView
-                android:layout_marginLeft="15dp"
-                android:layout_height="wrap_content"
-                android:layout_width="180dp"
-                android:textSize="15dp"
-                android:text="  Place of Birth:"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:background="@drawable/border"
-                />
-            <TextView
-                android:layout_height="wrap_content"
-                android:layout_width="180dp"
-                android:textSize="15dp"
-                android:text="  Eye color:"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:background="@drawable/border"
-                />
-        </TableRow>
-        
-        <TableRow>
-            <TextView
-                android:layout_marginLeft="15dp"
-                android:layout_height="wrap_content"
-                android:layout_width="180dp"
-                android:textSize="15dp"
-                android:text="  Race:"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:background="@drawable/border"
-                />
-            <TextView
-                android:layout_height="wrap_content"
-                android:layout_width="180dp"
-                android:textSize="15dp"
-                android:text="  Height:"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:background="@drawable/border"
-                />
-        </TableRow>
+            <TableRow>
 
-        <TableRow>
-            <TextView
-                android:layout_marginLeft="15dp"
-                android:layout_height="wrap_content"
-                android:layout_width="180dp"
-                android:textSize="15dp"
-                android:text="  Sex:"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:background="@drawable/border"
-                />
-            <TextView
-                android:layout_height="wrap_content"
-                android:layout_width="180dp"
-                android:textSize="15dp"
-                android:text="  Weight:"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:background="@drawable/border"
-                />
-        </TableRow>
-        
-        <TableRow>
-            <TextView
-                android:layout_marginLeft="15dp"
-                android:layout_height="wrap_content"
-                android:layout_width="180dp"
-                android:textSize="15dp"
-                android:text=""
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:background="@drawable/border"
-                />
-            <TextView
-                android:layout_height="wrap_content"
-                android:layout_width="180dp"
-                android:textSize="15dp"
-                android:text="  Scars and/or Marks:"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:background="@drawable/border"
-                />
-        </TableRow>
-    </TableLayout>
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/border"
+                    android:text="@string/date_of_birth"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/returnMissingPersonScnBtn_TaraC"
-        android:layout_width="80dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="150px"
-        android:onClick="onClickReturnMissingPersonScnBtn_TaraC"
-        android:text="return" />
-    
-</LinearLayout>
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:text="@string/hair"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/border"
+                    android:text="@string/place_of_birth"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:text="@string/eyeColorTaraCalico"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/border"
+                    android:text="@string/race"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:text="@string/height"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/border"
+                    android:text="@string/sex"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:text="@string/weight"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/border"
+                    android:text=""
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:text="@string/scars_and_or_marks"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/returnMissingPersonScnBtn_TaraC"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="onClickReturnMissingPersonScnBtn_TaraC"
+            android:text="@string/returnBtn" />
+    </LinearLayout>
+</ScrollView>
+
+
+

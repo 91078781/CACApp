@@ -3,4 +3,18 @@
     <string name="tab_text_1">Home</string>
     <string name="tab_text_2">Missing People</string>
     <string name="tab_text_3">Unidentified People</string>
+    <string name="scars_and_or_marks">Scars and/or Marks:</string>
+    <string name="weight">Weight:</string>
+    <string name="taraCalico">Tara Calico</string>
+    <string name="race">Race:</string>
+    <string name="height">Height:</string>
+    <string name="sex">Sex:</string>
+    <string name="returnBtn">return</string>
+    <string name="taraCalicoTeenImgDescription">Brown haired girl with blue eyes that is wearing a blue sweater.</string>
+    <string name="eyeColorTaraCalico">Eye color:</string>
+    <string name="lastSeenTaraCalico">Last Seen:</string>
+    <string name="place_of_birth">Place of Birth:</string>
+    <string name="hair">Hair:</string>
+    <string name="description">Description</string>
+    <string name="date_of_birth">Date of Birth:</string>
 </resources>
