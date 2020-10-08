@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
    public void onClickGoToAboutAminaAndBelelKandilScn(View view)
    {
-       startActivity(new Intent(MainActivity.this, AboutAlexisTiaraMurphy.class));
+       startActivity(new Intent(MainActivity.this, AboutAminaAndBelelKandil.class));
    }
 
     public void onClickGoToAboutAmandaKayJonesScn(View view)
