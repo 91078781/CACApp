@@ -105,7 +105,8 @@
         android:padding="0dp"
         android:scaleType="fitXY"
         android:onClick="onClickGoToAboutCayceMcDanielScn"
-        app:srcCompat="@drawable/cayce_mcdaniel" />
+        app:srcCompat="@drawable/cayce_mcdaniel"
+        android:contentDescription="TODO" />
 
     <ImageButton
         android:id="@+id/dulce_maria_alavez_btn"

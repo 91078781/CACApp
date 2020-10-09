@@ -10,13 +10,15 @@ import android.widget.Toast;
 
 public class AboutTaraCalico extends AppCompatActivity
 {
+    TextView lastSeenTV;
+    TextView dobTV;
+    MissingPeople tara_calico = new MissingPeople();
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_tara_calico);
-        MissingPeople tara_calico = new MissingPeople();
         tara_calico.setAge(49);
         tara_calico.setName("Tara Calico");
         tara_calico.setLastSeenDate("September 20,1988");
@@ -32,7 +34,8 @@ public class AboutTaraCalico extends AppCompatActivity
         tara_calico.setWeight("115- 120lbs");
         tara_calico.setRace("White");
 
-        Log.i("TESTING", "--------------------------"+ tara_calico.toString()+"----------------------------");
+        changeLastSeen();
+        /*Log.i("TESTING", "--------------------------"+ tara_calico.toString()+"----------------------------");
         Log.i("TESTING", "--------------------------"+ tara_calico.getAge()+"--------------------------");
         Log.i("TESTING", "--------------------------"+ tara_calico.getName()+"--------------------------");
         Log.i("TESTING", "--------------------------"+ tara_calico.getDOB()+"--------------------------");
@@ -49,12 +52,18 @@ public class AboutTaraCalico extends AppCompatActivity
         Log.i("TESTING", "--------------------------"+ tara_calico.getRace()+"--------------------------");
 
         Toast toast = Toast.makeText(getApplicationContext(),"--------------------------"+ tara_calico.toString()+"----------------------------",Toast.LENGTH_LONG);
-        toast.show();
+        toast.show();*/
     }
 
     public void onClickReturnMissingPersonScnBtn_TaraC(View view)
     {
         finish();
+    }
+
+    public void changeLastSeen()
+    {
+        lastSeenTV = (TextView) findViewById(R.id.lastSeen_taraCalico);
+        lastSeenTV.setText(""+ tara_calico.getLastSeenDate()+ "\n"+ tara_calico.getLocationLastSeen());
     }
 
 
