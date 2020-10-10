@@ -78,16 +78,19 @@ public class AboutTaraCalico extends AppCompatActivity
     {
         dobTV = (TextView) findViewById(R.id.dateOfBirth_taraCalico);
         String dOBStr = (String) dobTV.getText();
-        SpannableString ss = new SpannableString(dOBStr + " "+ tara_calico.getDOB());
+        SpannableString ss_dob = new SpannableString(dOBStr + " "+ tara_calico.getDOB());
+        StyleSpan bold_dob = new StyleSpan(Typeface.BOLD);
+        ss_dob.setSpan(bold_dob,0, dOBStr.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        dobTV.setText(ss_dob);
+
+        TextView raceTV = (TextView) findViewById(R.id.race_taraCalico);
+        String raceStr = (String) raceTV.getText();
+        SpannableString ss_race = new SpannableString(raceStr + " "+ tara_calico.getRace());
         StyleSpan bold = new StyleSpan(Typeface.BOLD);
-        ss.setSpan(bold,0, dOBStr.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-        dobTV.setText(ss);
+        ss_race.setSpan(bold,0, raceStr.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        raceTV.setText(ss_race);
 
-  /*      TextView raceTV = (TextView) findViewById(R.id.race_taraCalico);
-        raceTV.setText(raceTV.getText()+ tara_calico.getRace());
-
-        TextView sexTV = (TextView) findViewById(R.id.sex_taraCalico);
-        sexTV.setText(sexTV.getText()+ tara_calico.getSex());*/
+        
 
     }
 }

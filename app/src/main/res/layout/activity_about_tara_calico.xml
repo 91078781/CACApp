@@ -99,7 +99,7 @@
                     android:text="@string/hair"
                     android:textColor="#000"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                     />
             </TableRow>
 
             <TableRow>
@@ -113,7 +113,7 @@
                     android:text="@string/race"
                     android:textColor="#000"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                    />
 
                 <TextView
                     android:id="@+id/eyeColor_taraCalico"
@@ -123,7 +123,7 @@
                     android:text="@string/eyeColor"
                     android:textColor="#000"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                    />
             </TableRow>
 
             <TableRow>
@@ -137,7 +137,7 @@
                     android:text="@string/sex"
                     android:textColor="#000"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                    />
 
                 <TextView
                     android:layout_width="180dp"
@@ -146,7 +146,7 @@
                     android:text="@string/height"
                     android:textColor="#000"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                    />
             </TableRow>
 
             <TableRow>
@@ -159,7 +159,7 @@
                     android:text="@string/scars_and_or_marks"
                     android:textColor="#000"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                     />
 
                 <TextView
                     android:id="@+id/weight_taraCalico"
@@ -169,7 +169,7 @@
                     android:text="@string/weight"
                     android:textColor="#000"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                     />
             </TableRow>
 
         </TableLayout>
