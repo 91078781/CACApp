@@ -86,11 +86,16 @@ public class AboutTaraCalico extends AppCompatActivity
         TextView raceTV = (TextView) findViewById(R.id.race_taraCalico);
         String raceStr = (String) raceTV.getText();
         SpannableString ss_race = new SpannableString(raceStr + " "+ tara_calico.getRace());
-        StyleSpan bold = new StyleSpan(Typeface.BOLD);
-        ss_race.setSpan(bold,0, raceStr.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        StyleSpan bold_race = new StyleSpan(Typeface.BOLD);
+        ss_race.setSpan(bold_race,0, raceStr.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         raceTV.setText(ss_race);
 
-        
+        TextView sexTV = (TextView) findViewById(R.id.sex_taraCalico);
+        String sexStr = (String) sexTV.getText();
+        SpannableString ss_sex = new SpannableString(sexStr + " "+ tara_calico.getSex());
+        StyleSpan bold_sex = new StyleSpan(Typeface.BOLD);
+        ss_sex.setSpan(bold_sex,0, sexStr.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        sexTV.setText(ss_sex);
 
     }
 }
