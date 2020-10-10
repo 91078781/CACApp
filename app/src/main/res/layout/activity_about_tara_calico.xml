@@ -89,7 +89,7 @@
                     android:text="@string/dateOfBirth"
                     android:textColor="#000"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                     />
 
                 <TextView
                     android:id="@+id/hair_taraCalico"
@@ -97,30 +97,6 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/border"
                     android:text="@string/hair"
-                    android:textColor="#000"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:id="@+id/placeOfBirth_taraCalico"
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="15dp"
-                    android:background="@drawable/border"
-                    android:text="@string/placeOfBirth"
-                    android:textColor="#000"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/eyeColor_taraCalico"
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/border"
-                    android:text="@string/eyeColor"
                     android:textColor="#000"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -140,10 +116,11 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/eyeColor_taraCalico"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/border"
-                    android:text="@string/height"
+                    android:text="@string/eyeColor"
                     android:textColor="#000"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -163,11 +140,10 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/weight_taraCalico"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/border"
-                    android:text="@string/weight"
+                    android:text="@string/height"
                     android:textColor="#000"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -186,14 +162,16 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/weight_taraCalico"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/border"
-                    android:text=""
+                    android:text="@string/weight"
                     android:textColor="#000"
                     android:textSize="15sp"
                     android:textStyle="bold" />
             </TableRow>
+
         </TableLayout>
 
         <Button

@@ -2,11 +2,18 @@ package com.example.cacapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.Spanned;
+import android.text.style.StyleSpan;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import org.w3c.dom.Text;
 
 public class AboutTaraCalico extends AppCompatActivity
 {
@@ -35,6 +42,7 @@ public class AboutTaraCalico extends AppCompatActivity
         tara_calico.setRace("White");
 
         changeLastSeen();
+        changeDescriptionTable();
         /*Log.i("TESTING", "--------------------------"+ tara_calico.toString()+"----------------------------");
         Log.i("TESTING", "--------------------------"+ tara_calico.getAge()+"--------------------------");
         Log.i("TESTING", "--------------------------"+ tara_calico.getName()+"--------------------------");
@@ -66,5 +74,20 @@ public class AboutTaraCalico extends AppCompatActivity
         lastSeenTV.setText(""+ tara_calico.getLastSeenDate()+ "\n"+ tara_calico.getLocationLastSeen());
     }
 
+    public void changeDescriptionTable()
+    {
+        dobTV = (TextView) findViewById(R.id.dateOfBirth_taraCalico);
+        String dOBStr = (String) dobTV.getText();
+        SpannableString ss = new SpannableString(dOBStr + " "+ tara_calico.getDOB());
+        StyleSpan bold = new StyleSpan(Typeface.BOLD);
+        ss.setSpan(bold,0, dOBStr.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        dobTV.setText(ss);
 
+  /*      TextView raceTV = (TextView) findViewById(R.id.race_taraCalico);
+        raceTV.setText(raceTV.getText()+ tara_calico.getRace());
+
+        TextView sexTV = (TextView) findViewById(R.id.sex_taraCalico);
+        sexTV.setText(sexTV.getText()+ tara_calico.getSex());*/
+
+    }
 }
