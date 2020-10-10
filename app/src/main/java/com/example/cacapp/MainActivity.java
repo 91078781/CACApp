@@ -1,7 +1,6 @@
 package com.example.cacapp;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -11,17 +10,14 @@ import com.google.android.material.tabs.TabLayout;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.text.SpannableString;
-import android.text.Spanned;
-import android.text.style.StyleSpan;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 
 import com.example.cacapp.ui.main.SectionsPagerAdapter;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,20 +38,20 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-   public void onClickGoToTaraCalicoScn(View view)
-   {
-       startActivity(new Intent(MainActivity.this, AboutTaraCalico.class));
-   }
+    public void onClickGoToTaraCalicoScn(View view)
+    {
+        startActivity(new Intent(MainActivity.this, AboutTaraCalico.class));
+    }
 
-   public void onClickGoToAlexisTiaraMurphyScn(View view)
-   {
-       startActivity(new Intent(MainActivity.this, AboutAlexisTiaraMurphy.class));
-   }
+    public void onClickGoToAlexisTiaraMurphyScn(View view)
+    {
+        startActivity(new Intent(MainActivity.this, AboutAlexisTiaraMurphy.class));
+    }
 
-   public void onClickGoToAboutAminaAndBelelKandilScn(View view)
-   {
-       startActivity(new Intent(MainActivity.this, AboutAminaAndBelelKandil.class));
-   }
+    public void onClickGoToAboutAminaAndBelelKandilScn(View view)
+    {
+        startActivity(new Intent(MainActivity.this, AboutAminaAndBelelKandil.class));
+    }
 
     public void onClickGoToAboutAmandaKayJonesScn(View view)
     {

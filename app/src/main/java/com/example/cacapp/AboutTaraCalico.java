@@ -32,7 +32,7 @@ public class AboutTaraCalico extends AppCompatActivity
         tara_calico.setDOB("Feburary 28, 2969");
         tara_calico.setLocationLastSeen("Belen, New Mexico");
         tara_calico.setHasReward(false);
-        tara_calico.setScarsAndMarks("Large Scar on right shoulder and brown birthmark in her leg");
+        tara_calico.setScarsAndMarks("Large ccar on right shoulder and brown birthmark on her leg");
         tara_calico.setContactNum("N/A");
         tara_calico.setSex("Female");
         tara_calico.setHair("brown");
@@ -97,5 +97,11 @@ public class AboutTaraCalico extends AppCompatActivity
         ss_sex.setSpan(bold_sex,0, sexStr.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         sexTV.setText(ss_sex);
 
+        TextView scarsAndMarksTV = (TextView) findViewById(R.id.scarsAndMarks_taraCalico);
+        String scarsAndMarksStr = (String) scarsAndMarksTV.getText();
+        SpannableString ss_scarsAndMarks = new SpannableString(scarsAndMarksStr + "\n"+ tara_calico.getScarsAndMarks());
+        StyleSpan bold_scarsAndMarks = new StyleSpan(Typeface.BOLD);
+        ss_scarsAndMarks.setSpan(bold_scarsAndMarks,0, scarsAndMarksStr.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        scarsAndMarksTV.setText(ss_scarsAndMarks);
     }
 }

@@ -140,6 +140,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/height_taraCalico"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/border"
@@ -152,6 +153,7 @@
             <TableRow>
 
                 <TextView
+                    android:id="@+id/scarsAndMarks_taraCalico"
                     android:layout_marginStart="15dp"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
